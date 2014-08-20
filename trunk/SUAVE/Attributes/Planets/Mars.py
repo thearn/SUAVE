@@ -21,7 +21,7 @@ from SUAVE.Attributes.Constants import Composition
 class Mars(Planet):
     """ Physical constants specific to Mars and Mars' atmosphere """
     def __defaults__(self):
-        self.mass              = 0.0  # kg
-        self.mean_radius       = 0.0  # m
-        self.sea_level_gravity = 0.0  # m/s^2   
+        self.mass              = 6.4174e24  kg  # kg
+        self.mean_radius       = 3.3895e6  # m
+        self.sea_level_gravity = 3.71  # m/s^2   
 
